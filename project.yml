@@ -1,0 +1,16 @@
+name: IMGTool
+targets:
+  IMGTool:
+    type: application
+    platform: iOS
+    deploymentTarget: "15.0"
+    sources: [App]
+    settings:
+      base:
+        PRODUCT_NAME: IMGTool
+        EXECUTABLE_NAME: IMGTool
+        INFOPLIST_PATH: App/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.dev.imgtool
+        SWIFT_VERSION: 5.0
+        CODE_SIGNING_ALLOWED: NO
+        METAL_ENABLE_DEBUG_INFO: NO
