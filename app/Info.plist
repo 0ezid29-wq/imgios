@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleExecutable</key>
+    <string>TXDTool</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.dev.txdtool</string>
+    <key>CFBundleName</key>
+    <string>TXD Tool</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>UIFileSharingEnabled</key>
+    <true/>
+    <key>LSSupportsOpeningDocumentsInPlace</key>
+    <true/>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>We need access to your photo library to create and replace textures in TXD files.</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>We need permission to save extracted textures.</string>
+    <key>UTImportedTypeDeclarations</key>
+    <array>
+        <dict>
+            <key>UTTypeIdentifier</key>
+            <string>com.rockstargames.txd</string>
+            <key>UTTypeDescription</key>
+            <string>Rockstar TXD File</string>
+            <key>UTTypeConformsTo</key>
+            <array>
+                <string>public.data</string>
+            </array>
+            <key>UTTypeTagSpecification</key>
+            <dict>
+                <key>public.filename-extension</key>
+                <array>
+                    <string>txd</string>
+                </array>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
